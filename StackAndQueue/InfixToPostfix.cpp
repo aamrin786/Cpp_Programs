@@ -28,7 +28,7 @@ using namespace std;
             st.pop();
         }
 
-// handling the expressions w/o characters
+// handling the expressions w/o characters and parenthesis
         else if(s[i]=='+' || s[i]=='-' || s[i]=='*' || s[i]=='/' || s[i]=='^'){
             while( !st.empty()&&mp[st.top()]>=mp[s[i]]){
                 str+=st.top();
