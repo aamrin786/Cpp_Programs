@@ -1,6 +1,16 @@
 /*You are given a string str consisting of lowercase English alphabets only.
 Your task is to remove all the characters from the string if their frequency is divisible by their order in the lowercase alphabet.*/
 
+/*Testcase Input
+aab
+Testcase Output
+b
+Explanation
+Character ‘a’ has the frequency 2 and order 1, and 2 is divisible by 1. All the characters‘ a’ will be removed, and character ‘b’ 
+has the frequency 1 and order 2. And as 1 is not divisible by 2. We will not remove any occurrence of ‘b’ from the string.*/
+
+
+
 using namespace std;
 #include<bits/stdc++.h>
 
@@ -52,6 +62,8 @@ int main() {
     }
     cout<<res;
     }
+
+
 
   
     
