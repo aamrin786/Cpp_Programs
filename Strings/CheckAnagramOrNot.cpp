@@ -34,3 +34,8 @@ using namespace std;
         }
         return true;
     }
+
+   /* Approach: Sort both the string and compare each and every letter of both strings. 
+   If all letters matched then, print true. Otherwise, print false.*/
+
+
