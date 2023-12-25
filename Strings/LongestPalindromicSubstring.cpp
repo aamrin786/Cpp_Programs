@@ -45,6 +45,8 @@ Output: "bb"
         }
 //for odd length palindrome
 
+//this can be done as taking l=i-1 and r=i+1 where i should be i=1
+
         for(int i=0;i<n-1;i++){
                 int l=i;
                 int r=i;
